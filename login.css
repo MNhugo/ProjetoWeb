@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6b6b6;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #e3e2e2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #3f9c3f;
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #398339;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Alinhamento vertical dos campos */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #509950;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+/* 🔘 Botão centralizado */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4d914d;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #009900;
+    transform: scale(1.05);
+}
+
+/* ❌ Mensagem de erro */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
